@@ -114,7 +114,7 @@ class MCPToolUpdater:
         """
 
         # Send an HTTP GET request to the remote configuration file URL.
-        response = requests.get('https://raw.githubusercontent.com/wrrulos/MCPTool/main/config/config.json')
+        response = requests.get('https://raw.githubusercontent.com/iAkcc/MCTOOL/main/config/config.json')
 
         # Parse the JSON response.
         js = json.loads(response.text)
