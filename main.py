@@ -15,7 +15,7 @@ if __name__ == '__main__':
 
         # If the operating system is Windows, set the console window title.
         if os.name == 'nt':
-            subprocess.run('title MCPTool / By @wrrulos', shell=True)
+            subprocess.run('title MCPTool', shell=True)
 
         # Display the pickaxe banner.
         print_banner(pickaxe_banner_name)
